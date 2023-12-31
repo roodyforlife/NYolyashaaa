@@ -20,7 +20,7 @@ const App = observer(() => {
     return () => {
       clearInterval(timerID);
     };
-  }, []);
+  }, [newYearDate]);
 
   useEffect(() => {
     if (date.date >= newYearDate) {
