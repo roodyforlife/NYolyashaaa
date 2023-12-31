@@ -1,0 +1,22 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.timer {
+    text-align: center;
+}
+
+.time {
+    font-size: 15vw;
+    font-weight: 600;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 16px;
+}
