@@ -9,7 +9,7 @@ const App = observer(() => {
   const {date} = useContext(Context);
   const [isNewYear, setIsNewYear] = useState(false);
   /* const newYearDate = new Date(2024, 0, 1, 0, 0, 0); */
-  const newYearDate = new Date(2023, 11, 31, 3, 25, 0);
+  const newYearDate = new Date(2023, 11, 31, 3, 26, 0);
   
   const updateTime = () => {
     date.setDate(new Date());
